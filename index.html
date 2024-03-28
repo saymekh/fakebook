@@ -14,5 +14,42 @@
         <link rel="stylesheet" href="./assets/style/index.css">
         <script src="./assets/script/app.js" type="module"></script>
     </head>
-    
+    <body>
+        <div class="modal-bg"></div>
+            <div class="dialog container is-hidden"></div>
+        <header>
+            <nav class="container">
+                <h1><a href="">Facebook</a></h1>
+                <ul>
+                    <li><a href="#">Friends</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Groups</a></li>
+                    <li><a href="#">My ads</a></li>
+                </ul>
+                <div class="user">
+                  <img 
+                  src="/assets/image/profile-pic.jpg" 
+                  alt="Profile Picture"
+                   class="user-info">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container fakebook">
+                <form class="form-one">
+                    <div class="user-content">
+                        <textarea placeholder="What's new?"></textarea>
+                        <div class="form-two">
+                            <label for="file-input" class="custom-file-input">
+                                <i class="fa-solid fa-image"></i>
+                                <input type="file" id="file-input">
+                                <span class="file-name"></span>
+                            </label>
+                            <button type="button" class="post">Post</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
 </html>
