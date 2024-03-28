@@ -115,6 +115,10 @@ main {
   align-items: center;
 }
 
+.user {
+  color: #99ff00;
+}
+
 .user-content {
   display: flex;
   flex-direction: column;
