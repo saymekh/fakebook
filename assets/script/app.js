@@ -19,7 +19,7 @@ let pagesArr = [
 ];
 
 const newSubscriber = new Subscriber(
-    '3458fff', 'Saymek', 'saymekh', 'saymekh@gmail.com',
+    '3458fff', 'Saymek Habtu', 'saymekh', 'saymekh@gmail.com',
     groupsArr, pagesArr, true
 );
 
