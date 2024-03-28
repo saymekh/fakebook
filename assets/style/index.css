@@ -63,8 +63,6 @@ nav ul {
   justify-content: center;
 }
 
-
-
 .user-info {
   font-size: 30px;
   cursor: pointer;
@@ -72,10 +70,6 @@ nav ul {
   width: 10%;
   display: flex;
   justify-content: end;
-}
-
-.user-info:hover {
-  color: #a7a7a7;
 }
 
 .user-info {
@@ -190,8 +184,8 @@ main {
   background-color: var(--theme-color);
 }
 
-/* Dialog box */
 
+/* Dialog box */
 
 
 .dialog {
